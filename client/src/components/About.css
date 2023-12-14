@@ -1,0 +1,36 @@
+/* Apply text-align center and make the font bold for elements with the specified classes */
+.About,
+.Mission,
+.Meet,
+.Touch,
+.with {
+  text-align: left;
+  font-weight: bold; /* Add this line to make the font bold */
+  margin-left: 1%;
+}
+
+/* Make social media icons black */
+.social-icons a {
+  text-decoration: none;
+  color: black; /* Change this line to make the icons black */
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+  cursor: pointer;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 1200px) {
+  .sections {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sections {
+    grid-template-columns: 1fr;
+  }
+}
