@@ -4,7 +4,7 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 import App from './App';
 
 const client = new ApolloClient({
-  uri: 'https://quantum-threads-d47bbac449c1.herokuapp.com/', // Your GraphQL server endpoint
+  uri: 'https://quantum-threads-d47bbac449c1.herokuapp.com/graphql', // Your GraphQL server endpoint
   cache: new InMemoryCache()
 });
 
